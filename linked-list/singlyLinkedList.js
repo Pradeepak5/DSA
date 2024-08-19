@@ -141,16 +141,25 @@ class SinglyLinkedlist {
 }
 
 const list = new SinglyLinkedlist()
-list.push('pradeep')
-list.push('kumar')
-list.push('a')
-list.push('Hi')
+// list.push('pradeep')
+// list.push('kumar')
+// list.push('a')
+// list.push('Hi')
 // list.shift()
 // list.unShift('Pradeep')
 // console.log(list.get(1), 'get')
 // list.set('hello', 1)
-list.insert('welcome', 1)
-list.remove(1)
-list.reverse()
-console.log(list)
-list.print()
+// list.insert('welcome', 1)
+// list.remove(1)
+// list.reverse()
+// console.log(list)
+// list.print()
+
+const sample = (head) => {
+    const temp = head
+    console.log(temp, 'temp')
+    console.log(temp?.next, 'next')
+    return
+}
+
+sample([1,2,3,4,5])
